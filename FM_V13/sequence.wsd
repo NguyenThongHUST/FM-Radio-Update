@@ -1,0 +1,10 @@
+@startuml
+
+participant board_start 
+
+
+
+board_start --> read_button_14 : digitalRead(pin_14)
+
+
+@enduml
